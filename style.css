@@ -1,0 +1,15 @@
+.w_5 {
+    width: 5%;
+}
+
+.w_10 {
+    width: 10%;
+}
+
+.filter {
+    filter: invert(100%);
+}
+
+.bg_better {
+    background-color: rgb(26, 188, 156);
+}
