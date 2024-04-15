@@ -1,3 +1,7 @@
+.w_2 {
+    width: 2%;
+}
+
 .w_5 {
     width: 5%;
 }
@@ -16,4 +20,16 @@
 
 .bg_better {
     background-color: rgb(26, 188, 156);
+}
+
+.bg_ocean {
+    background-color: rgb(58, 84, 109);
+}
+
+.bg_ocean_dark {
+    background-color: rgb(44, 62, 80);
+}
+
+.text_better {
+    color: rgb(26, 188, 156);
 }
