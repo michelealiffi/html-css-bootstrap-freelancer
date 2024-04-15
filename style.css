@@ -6,6 +6,10 @@
     width: 10%;
 }
 
+.w_15 {
+    width: 15%;
+}
+
 .filter {
     filter: invert(100%);
 }
