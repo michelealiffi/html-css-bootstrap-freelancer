@@ -33,3 +33,91 @@
 .text_better {
     color: rgb(26, 188, 156);
 }
+
+#download {
+    width: 10%;
+}
+
+#facebook {
+    width: 4%;
+}
+
+#googleplus {
+    width: 5%;
+}
+
+#twitter {
+    width: 5%;
+}
+
+#linkedin {
+    width: 5%;
+}
+
+@media screen and (min-width: 576px) {
+    #avatar {
+        width: 50%;
+    }
+
+    #star {
+        width: 3%;
+    }
+
+    .line {
+        width: 5%;
+    }
+
+    #download {
+        width: 15%;
+    }
+
+    #facebook {
+        width: 6%;
+    }
+
+    #googleplus {
+        width: 6%;
+    }
+
+    #twitter {
+        width: 6%;
+    }
+
+    #linkedin {
+        width: 6%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #avatar {
+        width: 25%;
+    }
+
+    #star {
+        width: 3%;
+    }
+
+    .line {
+        width: 5%;
+    }
+
+    #download {
+        width: 10%;
+    }
+
+    #facebook {
+        width: 5%;
+    }
+
+    #googleplus {
+        width: 5%;
+    }
+
+    #twitter {
+        width: 5%;
+    }
+
+    #linkedin {
+        width: 5%;
+    }
+}

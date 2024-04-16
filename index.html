@@ -10,169 +10,163 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg_ocean_dark p-3 fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand fw-bold text-white" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler navbar-dark bg_ocean_dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg_ocean_dark p-3 fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand fw-bold text-white" href="#">START BOOTSTRAP</a>
+                  <button class="navbar-toggler navbar-dark bg_ocean_dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ms-auto text-uppercase">
+                        <li class="nav-item">
+                          <a class="nav-link active fw-semibold" aria-current="page" href="#">Portfolio</a>
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li class="nav-item">
+                          <a class="nav-link active fw-semibold" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-semibold" href="#">Contact</a>
+                        </li>
                       </ul>
-                    </li>
-                  </ul>
-                  <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </nav>
+            </nav>
+        </div>
     </header>
     <main>
-        <div class="container-fluid bg_better">
-            <div class="row justify-content-center py-5">
-                <div class="text-center text-white">
-                    <img class="img-fluid col-6 py-2 pt-5" src="img/avatar.svg" alt="Profile Picture">
-                    <h1 class="fs-1">START BOOTSTRAP</h1>
-                    <div class="p-2">
-                        <img class="w_10 filter" src="img/line-27325_1280.webp" alt="">
-                        <img class="w_5 pb-2 filter" src="img/star-solid.svg" alt="">
-                        <img class="w_10 filter" src="img/line-27325_1280.webp" alt="">
-                    </div>
-                    <div class="text-uppercase fw-semibold">Graphic Artist - Web Designer - Illustrator</div>
-                </div>
-            </div>
-        </div>
-        <div class="container p-0 text-center">
-            <p class="h2 text-uppercase py-3 text-center fs-5 fw-semibold">Portfolio</p>
-            <div class="p-2">
-                <img class="w_10" src="img/line-27325_1280.webp" alt="">
-                <img class="w_5 pb-2" src="img/star-solid.svg" alt="">
-                <img class="w_10" src="img/line-27325_1280.webp" alt="">
-            </div>
-            <div class="row text-center">
-                <div class="">
-                    <div class="m-3">
-                        <img class="w-100 rounded" src="img/cabin.png" alt="Cabin">
-                    </div>
-                </div>
-                <div class="">
-                    <div class="m-3">
-                        <img class="w-100 rounded" src="img/cake.png" alt="Cake">
-                    </div>
-                </div>
-                <div class="">
-                    <div class="m-3">
-                        <img class="w-100 rounded" src="img/circus.png" alt="Circus">
-                    </div>
-                </div>
-                <div class="">
-                    <div class="m-3">
-                        <img class="w-100 rounded" src="img/game.png" alt="Game">
-                    </div>
-                </div>
-                <div class="">
-                    <div class="m-3">
-                        <img class="w-100 rounded" src="img/safe.png" alt="Safe">
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <div class="m-3">
-                        <img class="w-100 rounded" src="img/submarine.png" alt="Submarine">
+        <section id="jumbo">
+            <div class="container-fluid bg_better">
+                <div class="row justify-content-center py-5">
+                    <div class="col-10 text-center text-white">
+                        <img class="img-fluid col-6 py-2 pt-5" src="img/avatar.svg" alt="Profile Picture" id="avatar">
+                        <h1 class="fs-1">START BOOTSTRAP</h1>
+                        <div class="p-2">
+                            <img class="w_10 line filter" src="img/line-27325_1280.webp" alt="">
+                            <img id="star" class="w_5 pb-2 filter" src="img/star-solid.svg" alt="">
+                            <img class="w_10 line filter" src="img/line-27325_1280.webp" alt="">
+                        </div>
+                        <div class="text-uppercase fw-semibold">Graphic Artist - Web Designer - Illustrator</div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid bg_better py-5 my-5">
-            <div class="text-uppercase text-center h3 fs-5 fw-semibold text-white">About</div>
-            <div class="p-2 mb-3 text-center filter">
-                <img class="w_10" src="img/line-27325_1280.webp" alt="">
-                <img class="w_5 pb-2" src="img/star-solid.svg" alt="">
-                <img class="w_10" src="img/line-27325_1280.webp" alt="">
+        </section>
+        <section id="portfolio">
+            <div class="container p-0 text-center">
+                <p class="h2 text-uppercase py-3 text-center fs-5 fw-semibold">Portfolio</p>
+                <div class="p-2">
+                    <img class="w_10 line" src="img/line-27325_1280.webp" alt="">
+                    <img id="star" class="w_5 pb-2" src="img/star-solid.svg" alt="">
+                    <img class="w_10 line" src="img/line-27325_1280.webp" alt="">
+                </div>
+                <div class="row text-center mt-2">
+                    <div class="col-12 col-md-6 col-lg-4 p-auto">
+                        <div class="m-3 m-md-0 mb-md-4">
+                            <img class="w-100 rounded" src="img/cabin.png" alt="Cabin">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="m-3 m-md-0 mb-md-4">
+                            <img class="w-100 rounded" src="img/cake.png" alt="Cake">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="m-3 m-md-0 mb-md-4">
+                            <img class="w-100 rounded" src="img/circus.png" alt="Circus">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="m-3 m-md-0 mb-md-4">
+                            <img class="w-100 rounded" src="img/game.png" alt="Game">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="m-3 m-md-0 mb-md-4">
+                            <img class="w-100 rounded" src="img/safe.png" alt="Safe">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="m-3 m-md-0 mb-md-4">
+                            <img class="w-100 rounded" src="img/submarine.png" alt="Submarine">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row justify-content-center text-white fw-semibold flex-column">
-                <div class="col-9 mx-auto">
-                    <p class="px-5">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+        </section>
+        <section id="about">
+            <div class="container-fluid bg_better p-5 my-5">
+                <div class="text-uppercase text-center h3 fs-5 fw-semibold text-white">About</div>
+                <div class="p-2 mb-3 text-center filter">
+                    <img class="w_10 line" src="img/line-27325_1280.webp" alt="">
+                    <img id="star" class="w_5 pb-2" src="img/star-solid.svg" alt="">
+                    <img class="w_10 line" src="img/line-27325_1280.webp" alt="">
                 </div>
-                <div class="col-9 mx-auto mt-2">
-                    <p class="px-5">Whetever you`re a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-4 text-center mx-auto mt-4">
-                    <a class="p-2 text-white bg_better border border-white rounded btn"><img class="w_10 mb-1 filter" src="img/download-solid.svg" alt=""> Download</a>
+                <div class="row justify-content-center text-white fw-semibold">
+                    <div class="col-12 col-md-6 col-lg-4 mx-auto">
+                        <p class="px-5">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mx-auto mt-2">
+                        <p class="px-5">Whetever you`re a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="col-4 col-md-2 text-center mx-auto mt-4">
+                            <a class="p-2 text-white bg_better border border-white rounded btn"><img class="mb-1 filter" id="download" src="img/download-solid.svg" alt=""> Download</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>    
-        <div class="container mb-3">
-            <form action="#" class="row">
-                <h3 class="text-uppercase text-center fs-3 fw-semibold" id="contact">Contact me</h3>
-                <div class="p-2 mb-3 text-center">
-                    <img class="w_10" src="img/line-27325_1280.webp" alt="">
-                    <img class="w_5 pb-2" src="img/star-solid.svg" alt="">
-                    <img class="w_10" src="img/line-27325_1280.webp" alt="">
-                </div>
-                <div class="col-6 mx-auto">
-                    <div class="col-6 py-1">
-                        <label class="h6 form-label" for="first-name">Name</label>
-                        <input class="text-secondary form-control border border-0 border-bottom" id="first-name" type="text">
+        </section>
+        <section id="contact">
+            <div class="container mb-3 p-5">
+                <form action="#" class="row">
+                    <h3 class="text-uppercase text-center fs-3 fw-semibold">Contact me</h3>
+                    <div class="p-2 mb-3 text-center">
+                        <img class="w_10 line" src="img/line-27325_1280.webp" alt="">
+                        <img id="star" class="w_5 pb-2" src="img/star-solid.svg" alt="">
+                        <img class="w_10 line" src="img/line-27325_1280.webp" alt="">
                     </div>
-                    <div class="col-6 py-1">
-                        <label class="h6 form-label" for="email">Email address</label>
-                        <input class="text-secondary form-control border border-0 border-bottom" id="email" type="email">
+                    <div class="col-6 col-md-9 col-lg-12 mx-auto">
+                        <div class="col-12 py-1">
+                            <label class="h6 form-label" for="first-name">Name</label>
+                            <input class="text-secondary form-control border border-0 border-bottom" id="first-name" type="text">
+                        </div>
+                        <div class="col-12 py-1">
+                            <label class="h6 form-label" for="email">Email address</label>
+                            <input class="text-secondary form-control border border-0 border-bottom" id="email" type="email">
+                        </div>
+                        <div class="col-12 py-1">
+                            <label class="h6 form-label" for="phone-number">Phone number</label>
+                            <input class="text-secondary form-control border border-0 border-bottom" id="phone-number" type="number">
+                        </div>
+                        <div class="col-12 py-1 mt-3">
+                            <label class="h6 form-label" for="message">Message</label>
+                            <textarea class="text-secondary form-control border border-0 border-bottom" id="message" rows="5"></textarea>
+                        </div>
+                        <div class="col-12 py-1">
+                            <button class="p-2 px-3 bg_better border rounded h6 text-white" type="submit"> Send</button>
+                        </div>
                     </div>
-                    <div class="col-6 py-1">
-                        <label class="h6 form-label" for="phone-number">Phone number</label>
-                        <input class="text-secondary form-control border border-0 border-bottom" id="phone-number" type="number">
-                    </div>
-                    <div class="col-12 py-1 mt-3">
-                        <label class="h6 form-label" for="message">Message</label>
-                        <textarea class="text-secondary form-control border border-0 border-bottom" id="message" rows="5"></textarea>
-                    </div>
-                    <div class="col-12 py-1">
-                        <button class="p-2 px-3 bg_better border rounded h6 text-white" type="submit"> Send</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
-        <div class="container-fluid bg_ocean">
-            <div class="row text-center py-4 flex-column text-white">
-                <div class="col fs-6 py-3">
+        <div class="container-fluid bg_ocean p-3">
+            <div class="row text-center py-4 text-white">
+                <div class="col-12 col-md-4 fs-6 py-3">
                     <p class="text-uppercase h5 fs-6">Location</p>
                     <p class="p-0 m-0">2215 John Daniel Drive Clark, MO 54243</p>
                 </div>
-                <div class="col fs-6">
-                    <p class="text-uppercase h5 py-3 fs-6">Around the Web</p>
-                    <a class="p-3 mx-1 border border-white rounded-circle"><img class="w_5" src="img/facebook-f.svg" alt=""></a>
-                    <a class="p-3 mx-1 border border-white rounded-circle"><img class="w_5" src="img/google-plus-g.svg" alt=""></a>
-                    <a class="p-3 mx-1 border border-white rounded-circle"><img class="w_5" src="img/twitter.svg" alt=""></a>
-                    <a class="p-3 mx-1 border border-white rounded-circle"><img class="w_5" src="img/linkedin-in.svg" alt=""></a>
+                <div class="col-12 col-md-4 fs-6 py-3">
+                    <p class="text-uppercase h5 fs-6">Around the Web</p>
+                    <div class="py-3">
+                        <a class="p-3 mx-1 border border-white rounded-circle"><img id="facebook" class="w_5 img-fluid" src="img/facebook-f.svg" alt=""></a>
+                        <a class="p-3 mx-1 border border-white rounded-circle"><img id="googleplus" class="w_5" src="img/google-plus-g.svg" alt=""></a>
+                        <a class="p-3 mx-1 border border-white rounded-circle"><img id="twitter" class="w_5" src="img/twitter.svg" alt=""></a>
+                        <a class="p-3 mx-1 border border-white rounded-circle"><img id="linkedin" class="w_5 img-fluid" src="img/linkedin-in.svg" alt=""></a>
+                    </div>
                 </div>
-                <div class="col fs-6 mt-5 fw-semibold">
+                <div class="col-12 col-md-4 col-lg-3 fs-6 fw-semibold py-3">
                     <p class="text-uppercase h5 fs-6">Around Freelancer</p>
                     <p class="">Freelance is a free to use, open source Bootstrap theme created by <span class="text_better">Start Bootstrap</span>.</p>
                 </div>
